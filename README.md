@@ -172,8 +172,7 @@ quick way I'm keeping this straight: `.children` = live, updates on its own. `qu
 
 ---
 
-## Cheat sheet — the whole DOM API in one place
-
+## All the methods together
 | method | what it does |
 |---|---|
 | `getElementById()` | find by id |
@@ -195,6 +194,5 @@ quick way I'm keeping this straight: `.children` = live, updates on its own. `qu
 
 ---
 
-## Closing note
-
+## Wrapping Up
 The biggest shift today was realising the DOM isn't some separate thing to memorise — it's just the browser handing JS a map of the page, and giving it the tools to walk around and rearrange it. Once that clicked, all the methods stopped feeling random and started feeling like they belong to two simple buckets: find it, then do something with it.
